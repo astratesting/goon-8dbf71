@@ -37,6 +37,12 @@ export default function DashboardNav({ user }: DashboardNavProps) {
               >
                 Agents
               </Link>
+              <Link
+                href="/dashboard/subscription"
+                className="px-3 py-1.5 text-sm text-zinc-400 hover:text-white hover:bg-white/5 rounded-lg font-medium transition-colors"
+              >
+                Subscription
+              </Link>
             </div>
           </div>
 
